@@ -1,0 +1,12 @@
+{
+    "name": "syntech/phpi-nhrover-test",
+    "authors": [
+        {
+            "name": "NH Evan",
+            "email": "nhevan@gmail.com"
+        }
+    ],
+    "require": {
+        "calcinai/phpi": "^0.3.3"
+    }
+}
