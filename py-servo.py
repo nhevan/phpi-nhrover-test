@@ -6,13 +6,22 @@ from time import sleep
 def setServoPos(servo, pos):
 	if pos==0:
 		print("Turning to mid position \n")
-		servo.mid()
+		while True: 
+		    servo.mid()
+		    sleep(1)
+		    break
 	if pos==1:
 		print("Turning to max position \n")
-		servo.max()
+		while True: 
+		    servo.max()
+		    sleep(1)
+		    break
 	if pos==-1:
 		print("Turning to min position \n")
-		servo.min()
+		while True: 
+		    servo.min()
+		    sleep(1)
+		    break
 
 if __name__ == '__main__':
 	import sys
